@@ -7,4 +7,4 @@ jobs:
   wat:
     runs-on: ubuntu-latest
     steps:
-    - uses: zregvart/action-token-wat
+    - uses: zregvart/action-token-wat@main
