@@ -1,0 +1,10 @@
+name: wat
+
+on:
+  workflow_dispatch:
+
+jobs:
+  wat:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: zregvart/action-token-wat@master
