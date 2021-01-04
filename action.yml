@@ -6,7 +6,7 @@ inputs:
 runs:
   using: 'composite'
   steps:
-    - run: curl -v -H 'Accept: application/vnd.github.v3+json' -H "Authorization: Bearer ${INPUT_TOKEN}" https://api.github.com/rate_limit
+    - run: curl -v -H 'Accept: application/vnd.github.v3+json' -H "Authorization: Bearer $INPUT_TOKEN" https://api.github.com/rate_limit
       shell: bash
       env:
         INPUT_TOKEN: ${{ inputs.token }}
